@@ -3,6 +3,8 @@ execute pathogen#infect()
 filetype on
 syntax on
 
+set laststatus=2
+
 filetype indent on
 set nowrap
 set tabstop=2
@@ -28,3 +30,7 @@ nnoremap <silent> <leader><leader> :nohlsearch<CR>
 
 set showmatch
 
+nmap <leader>n :NERDTreeToggle<CR>
+nmap <leader>j :NERDTreeFind<CR>
+
+let g:gitgutter_sign_column_always=1
