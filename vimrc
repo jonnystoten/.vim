@@ -13,7 +13,6 @@ set expandtab
 set smartindent
 set autoindent
 
-set colorcolumn=120
 set number
 
 map <leader>s :source ~/.vimrc<CR>
