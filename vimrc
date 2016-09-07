@@ -1,5 +1,7 @@
 execute pathogen#infect()
 
+colorscheme base16-default-dark
+
 filetype on
 syntax on
 
