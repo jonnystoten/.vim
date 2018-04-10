@@ -1,6 +1,6 @@
 execute pathogen#infect()
 
-colorscheme base16-default-dark
+"colorscheme base16-default-dark
 
 filetype on
 syntax on
@@ -17,7 +17,7 @@ set autoindent
 
 set number
 
-map <leader>s :source ~/.vimrc<CR>
+map <leader>s :source ~/.vim/vimrc<CR>
 
 set hidden
 set history=100
