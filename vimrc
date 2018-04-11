@@ -2,8 +2,9 @@ execute pathogen#infect()
 
 "colorscheme base16-default-dark
 
-filetype on
+set nocompatible
 syntax on
+filetype plugin indent on
 
 set laststatus=2
 
@@ -25,8 +26,8 @@ set history=100
 " Strip trailing whitespace on save
 autocmd BufWritePre * :%s/\s\+$//e
 
-" cancel search with <Esc>
 set hlsearch
+" cancel search
 nnoremap <silent> <leader><leader> :nohlsearch<CR>
 
 set showmatch
